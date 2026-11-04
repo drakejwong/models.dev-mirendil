@@ -59,6 +59,7 @@ test("Mirendil router preserves verified canonical mappings and reasoning contro
   const bindings = [
     ["claude-opus-5-5", "anthropic/claude-opus-5-5", ["low", "medium", "high", "xhigh", "max"]],
     ["claude-sonnet-5-5", "anthropic/claude-sonnet-5-5", ["low", "medium", "high", "xhigh", "max"]],
+    ["claude-haiku-5-5", "anthropic/claude-haiku-5-5", ["low", "medium", "high", "xhigh", "max"]],
     ["claude-opus-5-vertex", "anthropic/claude-opus-5", ["low", "medium", "high", "xhigh", "max"]],
     ["claude-opus-4-8-vertex", "anthropic/claude-opus-4-8", ["low", "medium", "high", "xhigh", "max"]],
     ["anthropic/claude-fable-5-1", "anthropic/claude-fable-5-1", ["low", "medium", "high", "xhigh", "max"]],
